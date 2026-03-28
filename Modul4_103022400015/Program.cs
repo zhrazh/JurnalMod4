@@ -19,6 +19,17 @@ namespace Modul4_103022400015
             Console.WriteLine("Kode Paket Business: " + k.getKodePaket("Business"));
             Console.WriteLine("Kode Paket Student: " + k.getKodePaket("Student"));
             Console.WriteLine("Kode Paket Traveler: " + k.getKodePaket("Traveler"));
+
+            Console.WriteLine(" ");
+
+            MesinKopi m = new MesinKopi();
+            m.standBy();
+            m.brewing();
+            m.stand();
+            m.maintenance();
+            m.standy();
+            m.off();
+            m.brewing();
         }
     }
 }
